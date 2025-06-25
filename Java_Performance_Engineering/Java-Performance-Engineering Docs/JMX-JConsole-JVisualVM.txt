@@ -1,0 +1,20 @@
+https://www.youtube.com/watch?v=aKGYa6Y9r60
+
+https://docs.oracle.com/javase/8/docs/technotes/guides/visualvm/jmx_connections.html
+
+
+-Dcom.sun.management.jmxremote
+-Dcom.sun.management.jmxremote.port=9010
+-Dcom.sun.management.jmxremote.local.only=false
+-Dcom.sun.management.jmxremote.authenticate=false
+-Dcom.sun.management.jmxremote.ssl=false
+-Dcom.sun.tools.visualvm.modules.visualgc.originalUI=true
+
+
+JConsole
+--------
+https://docs.oracle.com/javase/8/docs/technotes/guides/management/jconsole.html
+
+The JConsole graphical user interface is a monitoring tool that complies to the Java Management Extensions (JMX) specification. JConsole uses the extensive instrumentation of the Java Virtual Machine (Java VM) to provide information about the performance and resource consumption of applications running on the Java platform.
+
+One feature I use very often in JConsole is the "MBeans" tab for displaying manageable and monitorable attributes, operations, and notifications related to my custom MBeans.
